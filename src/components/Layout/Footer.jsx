@@ -10,16 +10,16 @@ const Footer = () => {
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
       <div>&copy; All Rights Reserved By pankaj</div>
       <div>
-        <Link to={""} target="_blank">
+        <Link to={"https://www.facebook.com/login/"} target="_blank">
           <FaFacebookF />
         </Link>
-        <Link to={""} target="_blank">
+        <Link to={"https://www.facebook.com/login/"} target="_blank">
           <FaYoutube />
         </Link>
-        <Link to={""} target="_blank">
+        <Link to={"https://www.linkedin.com/in/pankaj-kashyap-563b7a184/"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"/"} target="_blank">
+        <Link to={"https://www.linkedin.com/in/pankaj-kashyap-563b7a184/"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>
