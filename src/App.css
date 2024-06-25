@@ -72,6 +72,9 @@ p {
   }
 }
 
+.pointer{
+  cursor: pointer;
+}
 .authPage {
   display: flex;
   min-width: 1500px;
